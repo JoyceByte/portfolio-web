@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Joyce | IT Student Portfolio</title>
+  <meta name="description" content="Portfolio of Joyce, a 4th year IT student interested in networking and hardware.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#home"><i></i>Joyce</a>
+    <nav id="menu">
+      <a href="#about"><b>01</b> About</a>
+      <a href="#skills"><b>02</b> Skills</a>
+      <a href="#projects"><b>03</b> Projects</a>
+      <a href="#contact"><b>04</b> Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <svg class="net" viewBox="0 0 400 300" aria-hidden="true">
+        <g stroke="currentColor" stroke-width="1" fill="none" opacity=".5">
+          <path d="M60 220 L160 120 L280 170 L340 70"/>
+          <path d="M160 120 L190 40 L280 170"/>
+          <path d="M60 220 L200 250 L280 170"/>
+        </g>
+        <g fill="currentColor"><circle cx="60" cy="220" r="5"/>
+          <circle cx="160" cy="120" r="7" class="pulse"/>
+          <circle cx="280" cy="170" r="5"/>
+          <circle cx="340" cy="70" r="4"/>
+          <circle cx="190" cy="40" r="4"/>
+          <circle cx="200" cy="250" r="4"/>
+        </g>
+      </svg>
+      <div class="wrap">
+        <p class="label">4th year IT student</p>
+        <h1>Joyce.<br>
+          <span>Networks, cables,<br>and clean design.</span>
+        </h1>
+        <p class="lead">I'm most interested in the hardware side of IT, especially networking. 
+          I like seeing how things connect and keeping them simple.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn ghost" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="wrap sec">
+      <p class="label">01 — About</p>
+      <h2>Honest about what I know.</h2>
+      <div class="two">
+        <p>I'm 21 and in my fourth year of Information Technology. I'm not very interested in IT as a whole, but I enjoy the hardware parts, especially networking and Ethernet cabling.</p>
+        <p>I can set up Active Directory Domain Services, install operating systems on Windows computers, and crimp Ethernet cables. I also enjoy watching tech people do their work, even though I'm still learning and not an expert.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="wrap sec">
+      <p class="label">02 — Skills</p>
+      <h2>What I can do.</h2>
+      <div class="three">
+        <div class="col">
+          <h3>Comfortable with</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>XAMPP</li>
+            <li>Active Directory (AD DS)</li>
+            <li>Installing Windows OS</li>
+            <li>Ethernet cabling &amp; crimping</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Learning the basics</h3>
+          <ul class="soft">
+            <li>C++</li>
+            <li>C#</li>
+            <li>C</li>
+            <li>SQL</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Interested in</h3>
+          <ul class="soft">
+            <li>Networking</li>
+            <li>Computer hardware</li>
+            <li>Watching how tech people work</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="wrap sec">
+      <p class="label">03 — Projects</p>
+      <h2>Selected work.</h2>
+      <div class="list">
+        <article class="row">
+          <div class="shot">
+            <img src="images/project1.png" alt="portfolio website" width="300" height="200">
+            </span>
+          </div>
+          <div class="info">
+            <h3>This portfolio website</h3>
+            <p>A responsive one-page site in plain HTML, CSS, and JavaScript, hosted on GitHub Pages.</p>
+            <p class="contrib"><b>My part:</b> personalized the design and content, then published it.</p>
+            <a href="https://github.com/JoyceByte/portfolio" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </div>
+        </article>
+        <article class="row">
+          <div class="shot">
+              <img src="images/project2.png" alt="freecodecamp certificate" width="300" height="200">
+            </span>
+          </div>
+          <div class="info">
+            <h3>Responsive Web Design</h3>
+            <p>Earned a Responsive Web Design certification through freeCodeCamp by completing projects focused on HTML, CSS, accessibility, and responsive layouts.
+            </p>
+            <p class="contrib">
+            <b>My part:</b> Completed all required certification projects and developed responsive web pages using HTML and CSS.
+            </p>
+            <a href="https://www.freecodecamp.org/certification/delmontejoyce/responsive-web-design" target="_blank" rel="noopener"> View Certificate →
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap sec contact">
+      <p class="label">04 — Contact</p>
+      <h2>Get in touch.</h2>
+      <p class="lead">Questions, feedback, or opportunities are welcome.</p>
+      <div class="actions"><a class="btn" href="mailto:delmontejoyce017@gmail.com">delmontejoyce017@gmail.com</a>
+        <a class="btn ghost" href="https://github.com/JoyceByte" target="_blank" rel="noopener">GitHub profile</a></div>
+    </section>
+  </main>
+
+  <footer><p>&copy; <span id="year">2026</span> Joyce &middot; </p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
